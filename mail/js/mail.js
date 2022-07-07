@@ -1,13 +1,9 @@
 const mailList = ["mario.rossi@mail.it","lucia30@mail.com","steve.jobs@apple.it"]
-
 const userMail = document.getElementById("mail");
 
 document.getElementById("btn").addEventListener("click",
 
     function(){
-
-        // console.log(userMail.value);
-        // console.log(mailList[0]);
 
         for (let i = 0; i < mailList.length; ++i){
 
@@ -20,6 +16,4 @@ document.getElementById("btn").addEventListener("click",
             } 
         }
     }
-
-    
 )
