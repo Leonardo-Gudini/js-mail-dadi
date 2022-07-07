@@ -22,13 +22,13 @@ document.getElementById("btn").addEventListener("click",
 )
 
 
-for (let i = 0; i < mailList.length; i++){
+// for (let i = 0; i < mailList.length; i++){
 
-    if(userMail == mailList[1]){
-        console.log("puoi accedere");  
-    }
+//     if(userMail == mailList[1]){
+//         console.log("puoi accedere");  
+//     }
      
-}
+// }
 
 
 
